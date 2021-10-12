@@ -20,7 +20,7 @@ class Crawl_handel:
             # 2 加载首页面，并进行登录
             cookies = self.login(driver)
 
-            # 3
+            # 3 不断爬取所有微博内容数据，具体处理逻辑有crawler方法自己实现
 
             # 4 关闭驱动
             crawler.quiet_driver()
